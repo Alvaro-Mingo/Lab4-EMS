@@ -1,27 +1,38 @@
-html,body {
-    height:100%;
-    background:white;
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: white;
 }
+
 header {
-    display:block;
-    background:#d7e0e9;
-    padding:10px 0px;
+    display: block;
+    background: #d7e0e9;
+    padding: 10px 0;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 2px solid #b0c4d3;
 }
+
 section {
-    width: 79%;
-    float: left;
-    overflow: auto;
+    width: 80%;
+    margin: 0 auto;
+    float: none;
+    padding-top: 30px;
     padding-bottom: 60px;
-    padding-top:30px;
     color: black;
+    line-height: 1.6;
+    font-size: 18px;
 }
+
 footer {
     position: relative;
     margin-top: -50px;
     height: 40px;
-    padding:5px 0px;
-    clear: both;
+    padding: 5px 0;
     background: #d7e0e9;
     text-align: center;
     color: black;
+    border-top: 2px solid #b0c4d3;
+    font-size: 14px;
 }
